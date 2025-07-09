@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind|[8-15]</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Gradient color stops start from here -->
+    <div class="bg-gradient-to-r from-red-400 to-yellow-500"> 
+        Programming Sikbo
+    </div>
+    <div class=" bg-gradient-to-l  from-pink-500 to-green-500">
+        Abu Al Shahriar Rifat
+    </div>
+
+    <div class="bg-gradient-to-r  from-indigo-400 via-violet-500 to-green-500">
+        I am a Full stack Software ML Engineer</div>
+    <!-- Gradient color ends from here -->
+     <!-- Backround start from here -->
+      <!-- Backround clip text -->
+       <div class="bg-gradient-to-r from-red-500 via-sky-500 
+        to-indigo-500 text-transparent bg-clip-text">
+         I am a Full stack developer
+       </div>
+      <!-- backround ends from here -->
+       <!-- Backround-origin-start from here -->
+        <p class="background-origin-border  bg-red-500 p-4 border-4 border-black">backround-origin-border</p>
+        <p class="background-origin-padding bg-green-500 p-4 border-4 border-black">backround-origin-padding</p>
+        <p class="background-origin-content bg-sky-500 p-4 border-4 border-black">backround-origin-content</p>
+        <!-- bacround-origin-end from here -->
+
+        <!-- background image with gradient start from here -->
+         <div style=" background-image:url('../Image/images/11.jpg')" alt="" width="500px" height="500px"
+         class="bg-center bg-gradient-to-r from-green-500 via-yellow-500 to-red-600 
+         bg-transparent bg-clip-text text-9xl font-extrabold text-transparent">
+         Abu Al Shahriar Rifat
+         </div>
+         <!-- backround image with gradient end from here -->
+
+         <!-- rounded starts from here -->
+          <p class="rounded-none">rounded-</p>
+          <p class="rounded">rounded</p>
+          <p class="rounded-sm">rounded-sm</p>
+          <p class="rounded-md">rounded-md</p>
+          <p class="rounded-lg">rounded-lg</p>
+          <p class="rounded-xl">rounded-xl</p>
+          <p class="rounded-2xl">rounded-2xl</p>
+          <p class="rounded-3xl">rounded-3xl</p>
+
+<div class="w-[100px] h-[100px] bg-purple-400">
+<p class="rounded-none ">rounded</p>
+ <div class="w-[100px] h-[100px] bg-red-400">
+  <p class="rounded">rounded</p>
+</div>
+<div class="w-[100px] h-[100px] bg-pink-400">
+ <p class="rounded-sm">rounded</p>
+</div>
+<div class="w-[100px] h-[100px] bg-sky-400">
+  <p class="rounded-md">rounded</p>
+</div>
+<div class="w-[100px] h-[100px] bg-gray-400">
+ <p class="rounded-lg">rounded</p>
+</div>
+<div class="w-[100px] h-[100px] bg-indigo-400">
+ <p class="rounded-xl">rounded</p>
+</div>
+<div class="w-[100px] h-[100px] bg-violet-400">
+ <p class="rounded-2xl">rounded</p>
+</div>
+<div class="w-[100px] h-[100px] bg-purple-400">
+ <p class="rounded-3xl">rounded</p>
+</div>
+</div>
+<!-- rounded  ends from here -->
+<br/>
+<br/>
+<br/>
+<!-- Border starts from here -->
+ <div class="rounded-3xl bg-indigo-400 w-[100px] h-[100px]" >
+    1
+ </div>
+ <div class="rounded-full bg-violet-500 w-[100px] h-[100px]"></div>
+ <div class="rounded-s-none bg-indigo-600 w-[100px] h-[100px]"></div>
+ <div class="rounded-s-sm bg-amber-500 w-[100px] h-[100px]"></div>
+ <div class="rounded-s bg-gray-500 w-[100px] h-[100px]"></div>
+ <div class="rounded-s-md bg-green-500 w-[100px] h-[100px]"></div>
+ <!-- Border ends from here -->
+  <!-- rounded start from here -->
+   <div class=" rounded-t-lg  w-[100px] h-[100px] bg-purple-600 m-[100px]"></div>
+   <div class=" rounded-tl-lg w-[100px] h-[100px] bg-pink-500 m-[100px]"></div>
+   <div class=" rounded-r-lg w-[100px] h-[100px] bg-dark-800 m-[100px]"></div>
+   <div class=" rounded-r-lg w-[100px] h-[100px] bg-gradient-to-r from-yellow-500 via-green-500 to-pink-600"></div>
+   <!-- rounded end from here -->
+
+   <!-- rounded direction  -->
+    <div dir="auto">
+        <div class=" rounded-s-sm w-[100px] h-[100px] bg-pink-500"></div>
+    </div>
+    <br/>
+        <div dir="ltr">
+        <div class=" rounded-s-sm w-[100px] h-[100px] bg-pink-500"></div>
+    </div>
+        <div dir="rtl">
+        <div class=" rounded-s-sm w-[100px] h-[100px] bg-pink-500"></div>
+    </div>
+
+    <!-- Border start from here -->
+      <p class="border-0 w-[100px] h-[100px] bg-pink-500 text-center">border-1</p>
+      <p class="border-2 w-[100px] h-[100px] bg-indigo-600">border-1</p>
+      <p class="border-4 w-[100px] h-[100px] bg-rose-500">border-1</p>
+      <p class="border-6 w-[100px] h-[100px] bg-purple-600">border-1</p>
+      <p class="border-8 w-[100px] h-[100px] bg-indigo-500">border-1</p>
+      <p class="border-r-red-600 w-[100px] h-[100px] bg-pink-600">border-1</p>
+      <p class=" border-t-yellow-500 w-[100px] h-[100px] bg-indigo-500">border-1</p>
+      <p class=" border-x-2 border-y-4 w-[100px] h-[100px] bg-purple-500"></p>
+     <!-- Border ends from here -->
+
+     <div class=" divide-y divide-slate-200">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+     </div>
+
+     
+     <div class=" divide-y divide-red-500">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+     </div>
+     <!-- Using logical properties -->
+      <div dir="ltr">
+        <div class="border-s-4 w-[100px] h-[100px] bg-pink-500"></div>
+      </div>
+      <div dir="rtl">
+        <div class="border-s-4 w-[100px] h-[100px] bg-purple-500"></div>
+      </div>
+
+      <!-- Border -->
+       <div class=" border-4 border-indigo-800/25 w-[100px] h-[100px] bg-red-500/45"></div>
+       <div class=" border-4 border-red-800/50 w-[100px] h-[100px] bg-green-500/45"></div>
+       <div class=" border-4 border-pink-800/100 w-[100px] h-[100px] bg-indigo-500/50"></div>
+       <!-- Border style start from here -->
+        <p class="border-solid bg-pink-400 w-[100px] h-[100px] border-indigo-500 border-2 rounded hover:border-double">border-style</p>
+        <p class="border-double bg-indigo-500 w-[100px] h-[100px] border-red-500 border-4 rounded-top hover:border-dotted">border-style</p>
+        <p class="border-dashed bg-violet-600 w-[100px] h-[100px] border-green-500 border-6 rounded-bottom" >border-style</p>
+        <p class="border-dotted bg-red-500 w-[100px] h-[100px] border-pink-500 border-8">border-style</p>
+        <p class="border-none bg-pink-500 w-[100px] h-[100px]">border-style</p>
+        <p class="border-hidden bg-sky-500 w-[100px] h-[100px] border-2">border-style</p>
+        <!-- Border style end from here -->
+
+        <!-- border divide-x -->
+         <div class=" grid grid-cols-3 divide-indigo-500 divide-y-4">
+            <span>0</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+         </div>
+
+         <!-- Reverse -->
+          <div class=" divide-y-4 divide-y-reverse flex flex-col-reverse 
+           divide-green-500">
+            <span>0</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span>7</span>
+            <span>8</span>
+         </div>
+
+         <div class="divide-y divide-violet-500 
+          hover:divide-green-600 hover:divide-y-8 
+          divide-dashed">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+          <span>4</span>
+          <span>5</span>
+          <span>6</span>
+          <span>7</span>
+          <span>8</span>
+          <span>9</span>
+          <span>10</span>
+          <span>11</span>
+          <span>12</span>
+         </div>
+        <!-- divide solid -->
+         <div class=" divide-y divide-red-400 divide-solid">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+         </div>
+        <!-- divided-dotted -->
+         <div class=" divide-y divide-green-500 divide-dotted">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+         </div>
+        <!-- divide-double -->
+         <div class=" divide-y divide-violet-500 divde-double">
+            <div>1</div>
+            <div>1</div>
+            <div>1</div>
+         </div>
+        <!-- divide-none -->
+         <div class="divide-y divide-green-500 divide-none">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+         </div>
+
+
+         <!-- Outline start from here -->
+          <div class=" flex flex-row justify-content-start  items-center gap-5 rounded">
+          <button class=" outline outline-offset-2 outline-1 outline-red-500 outline-solid">outline-1</button>
+          <button class=" outline outline-offset-2 outline-2 outline-green-500/45 outline-double">outline-2</button>
+          <button class=" outline outline-offset-2 outline-4 outline-indigo-400 outline-dotted">outline-4</button>
+          <button class=" outline outline-offset-2 outline-8 outline-red-500 outline-solid">outline-8</button>
+          </div>
+       
+          <!-- Outline ends from here -->
+
+          <!-- ouline style starts from here -->
+           <div class=" flex flex-col w-1/2 gap-y-3 ">
+            <input type="text" placeholder="Focus"
+           class="mt-5 ms-3 outline-offset-4">
+
+           <input type="text" placeholder="Focus with class "
+           class="focus: outline-none focus:ring 
+           focus:border-blue-500 outline-offset-8">
+           </div>
+
+
+           <!-- Outline style ends from here -->
+
+           <!-- outline start from here -->
+            <button class="outline outline-red-500 outline-solid-green-400 outline-0">outline-1</button>
+            <button class="outline outline-red-500 outline-solid-green-400 outline-1">outline-2</button>
+            <button class="outline outline-red-500 outline-solid-green-400 outline-2">outline-3</button>
+            <button class="outline outline-red-500 outline-solid-green-400 outline-4">outline-4</button>
+            <button class="outline outline-red-500 outline-solid-green-400 outline-8">outline-5</button>
+            <!-- outline ends from here -->
+</body>
+</html>

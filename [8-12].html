@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind|[8-15]</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1 class="leading-4 text-red-400 text-3xl mt-3 p-3">Abu Al Shahriar Rifat</h1>
+    <!-- List style Image start from here -->
+     <ul class=" flex items-center justify-content-center flex-row gap-4 bg-indigo-500 p-3 text-black-500 font-boldcursor-pointer hover:text-light-200 hover:list-inside list-outside
+     hover:list-image-[url(../Image/t.png)] list-image-none">
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About us</li>
+        <li>Video</li>
+     </ul>
+     <!-- text align start from here -->
+      <p class=" text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, fugit?</p>
+      <p class="text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <p class=" text-end">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, fugiat dolores praesentium cupiditate blanditiis accusantium nulla alias aspernatur doloremque quae debitis aliquam tempore dicta 
+        rem ipsa eos vitae nam qui.</p>
+      <!-- text align ends from here -->
+
+      <!-- text color start from here -->
+       <p class="text-green-500">color in tailwind</p>
+       <p class="text-red-500">color in tailwind</p>
+       <p class="text-pink-500">color in tailwind</p>
+       <p class="text-indigo-500">color in tailwind</p>
+       <p class="text-yellow-500">color in tailwind</p>
+       <p class="text-gray-500">color in tailwind</p>
+       <p class="text-purple-500">color in tailwind</p>
+       <p class="text-violet-500">color in tailwind</p>
+       <p class="text-rose-500">color in tailwind</p>
+       <p class="text-fuchsia-500">color in tailwind</p>
+       <!-- text color ends from here -->
+
+       <!-- Underline start from here -->
+        <p class="underline">underline-1</p>
+        <p class="line-through">underline-2</p>
+        <p class="no-underline">underline-3</p>
+        <p class=" underline hover:no-underline">underline-4</p>
+        <p class="decoration-red-500 hover:decoration-green-500">underline-5</p>
+        <p class="decoration-yellow-500">Underline-yellow-500</p>
+     <!-- Underline ends from here -->
+   <!-- text-decoration start from here -->
+    <p class="decoration-inherit underline bg-red-300 decoration-solid">decoration-style-1</p>
+    <p class="decoration-current underline bg-indigo-400 decoration-double">decoration-style-1</p>
+    <p class="decoration-transparent underline bg-purple-400 decoration-dotted">decoration-style-1</p>
+    <p class="decoration-black underline bg-yellow-400 decoration-dashed">decoration-style-1</p>
+    <p class="decoration-white underline bg-gray-500 decoration-wavy">decoration-style-1</p>
+    <p class="decoration-slate-50 underline bg-green-500 decoration-solid">decoration-style-1</p>
+    <p class="decoration-red-500 underline bg-amber-500 decoration-wavy">decoration-style-1</p>
+    <!-- Text decoration end from here -->
+
+    <!-- text decoration style start from here -->
+     <p class="decoration-solid bg-sky-400 underline">text-decoration-solid</p>
+     <p class="decoration-dotted bg-yellow-600 underline">text-decoration-dotted</p>
+     <p class="decoration-dashed bg-indigo-500 underline">text-decoration-dashed</p>
+     <p class="decoration-wavy bg-gray-500 underline">text-decoration-wavy</p>
+     <p class="decoration-double bg-red-500 underline">text-decoration-double</p>
+     <!-- text decoration style ends from here -->
+
+
+     <!--  decoration thikness start from here -->
+       <p class="decoration-solid  decoration-red-500 underline decoration-auto">decoration-thikness-1</p>
+       <p class="decoration-double decoration-slate-500 underline decoration-from-font">decoration-thikness-1</p>
+       <p class="decoration-dotted underline decoration-0">decoration-thikness-1</p>
+       <p class="decoration-dashed underline decoration-1">decoration-thikness-1</p>
+       <p class="decoration-wavy underline decoration-2">decoration-thikness-1</p>
+       <p class=" underline  decoration-sky-500 decoration-4 decoration-dotted">decoration-thikness</p>
+       <p class=" underline decoration-yellow-500 decoration-8 decoration-wavy" >decoration-thikness</p>
+      <!-- decoration thikness end from here -->
+       <!-- text underline offset start from here -->
+        <p class="underline underline-offset-1">underline-offset-1</p>
+        <p class="underline underline-offset-2">underline-offset-2</p>
+        <p class="underline underline-offset-4">underline-offset-4</p>
+        <p class="underline underline-offset-8">underline-offset-8</p>
+     <!-- text-underline offset ends from here -->
+
+     <!-- text transform start from here -->
+      <p class="uppercase hover:lowercase hover:decoration-dotted decoration-sky-600 hover:underline">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p class="lowercase">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p class="capitalize">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p class="normal-case">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+     
+      <!-- text transform end from here -->
+       <!-- text width start from here -->
+        <p class="bg-red-500 truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta reiciendis culpa voluptatibus amet, eaque pariatur repellendus, cupiditate ea nihil qui id quia dolorum commodi. Laudantium, est molestiae. Quidem iure et consequuntur. Expedita debitis enim eum quas est esse ut dolorum aliquam odio saepe accusantium, dolorem officiis maiores possimus officia nihil non tenetur corporis iure optio minus porro. Neque accusantium incidunt voluptas quidem beatae, repellat blanditiis maxime ipsa cumque esse inventore hic earum aperiam modi animi reiciendis quos! Praesentium, obcaecati odit fugit et aliquid illo magni molestiae, nobis corporis amet recusandae neque, quae illum! Iste vero ea nemo repudiandae minima quam.</p>
+        <p class="bg-sky-500  w-[300px] text-ellipsis overflow-hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, necessitatibus voluptate eaque molestias animi officiis! Temporibus, magnam delectus dignissimos aliquid earum perferendis reprehenderit labore tempore optio totam harum animi ea deserunt illum nam! Nesciunt eligendi soluta sapiente natus numquam iusto dolorum. Iusto corrupti nisi doloribus facilis suscipit, nam minima accusamus ullam quos eum voluptatum rerum quam alias perferendis aperiam dicta soluta impedit, consequatur provident exercitationem voluptatem reiciendis eius delectus ipsam. Tempora perspiciatis a fugiat, repellat architecto molestiae omnis harum accusamus veritatis facilis cupiditate reiciendis eveniet ut porro ipsum minus tempore enim ab optio, est nam labore veniam iure? Possimus dolores sit asperiores, consectetur non, placeat aut et quaerat autem, cupiditate tempora qui alias corporis! Pariatur, maxime. Iusto eligendi soluta iste qui nemo ad adipisci minus quia, debitis, magnam animi, quasi aperiam nesciunt tempora libero? Soluta facere magnam, et rerum omnis doloribus vel sed mollitia inventore culpa incidunt velit libero dolorum officia earum, modi exercitationem saepe quisquam aspernatur iure illo voluptas. Consectetur molestias hic tempore. Voluptates adipisci accusamus maiores. Corrupti cum beatae praesentium perspiciatis modi, hic quisquam officiis mollitia. Nobis dolore quasi qui numquam aliquid possimus, doloribus, consequuntur iure consectetur perferendis, hic temporibus accusamus illum facere enim eius. Illum, sed aliquid.</p>
+        <p class=" bg-yellow-500 w-[400px] text-clip bg-yellow-500 overflow-hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsam asperiores nemo, dolorum aspernatur perferendis dignissimos doloribus deleniti blanditiis nulla. Fugit maxime modi ipsam nostrum incidunt quam est harum maiores. Voluptate aut quo nihil officia accusamus omnis aliquam dignissimos fugiat excepturi sapiente labore, ipsa rerum aperiam ratione. Odio iste sunt suscipit delectus blanditiis sint ea sapiente deserunt deleniti consectetur, recusandae rerum optio adipisci esse? Blanditiis vitae nemo nisi temporibus eos explicabo consequatur ea dolores ducimus ullam mollitia at ipsum repellendus animi, praesentium, nihil accusamus sint! Soluta dignissimos adipisci mollitia, aut ratione ullam veritatis repellat cumque vero beatae esse iusto iure architecto, eveniet minima sint omnis quasi officia. Autem, repudiandae nobis libero minima veritatis id commodi quam. Similique, dolorum facere adipisci tempore magni dignissimos quam culpa voluptas harum quasi quia numquam, nostrum accusamus. Non nobis nihil beatae, porro perferendis nam reiciendis rerum et, harum voluptatum quas fugit. Tempore earum eum nulla ex laborum rerum veniam, voluptates dolore minus ipsum magnam quia hic eveniet, voluptatibus quam quae dolor culpa nesciunt vitae. Inventore dolorum quia corporis cum iste repudiandae magni officia error minima doloremque. Laboriosam quos animi doloribus, dolorum sint non tempora aliquid harum repudiandae id, quae perspiciatis exercitationem nemo saepe, qui eos.</p>
+        <!-- text width  end from here -->
+        <!-- indent start from here-->
+         <p class="indent-1">indent-1</p>
+         <p class="indent-2">indent-2</p>
+         <p class="indent-3">indent-3</p>
+         <p class="indent-4">indent-4</p>
+         <p class="indent-5">indent-5</p>
+         <p class="indent-6">indent-6</p>
+         <p class="indent-7">indent-7</p>
+         <p class="indent-8">indent-8</p>
+         <!-- Indent end from here -->
+
+         <!-- vertical align start from here -->
+           <span class="align-baseline inline-block">vertical-align-baseline</span>
+           <span class="align-top inline-block">vertical-align-top-</span>
+           <span class="align-middle inline-block">vertical-align-middle</span>
+           <span class="align-bottom inline-block">vertical-align-bottom</span>
+           <span class="align-text-top inline-block">vertical-align-text-top</span>
+           <span class="align-text-bottom inline-block">vertical-align-text-bottom</span>
+           <span class="align-sub inline-block">vertical-align-sub</span>
+           <span class="align-supper inline-block">vertical-align-supper</span>
+          <!-- vertical align end from here -->
+           <!-- whitespace start from here -->
+            <p class="whitespace-normal">white-space-normal Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore mollitia nihil quibusdam. Molestiae a hic numquam commodi nulla, dicta praesentium ex veritatis magni reprehenderit? Repudiandae aperiam officiis, quas alias laborum iste culpa aliquid corporis? Dolore similique deleniti amet eum ipsa, corporis esse magnam labore provident natus? Eum sed rerum aliquid!</p>
+            <p class="whitespace-nowrap">white-space-nowrap Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, consectetur, maxime necessitatibus dolorem laboriosam itaque doloribus veritatis pariatur porro ipsam in saepe repudiandae exercitationem magni suscipit? Provident ab excepturi quidem recusandae beatae eius necessitatibus, ipsum porro obcaecati eos suscipit maxime, libero architecto quae numquam quibusdam. Placeat dolorum ducimus totam maiores.</p>
+            <p class="whitespace-pre">white-space-pre Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, reiciendis maxime, praesentium veniam itaque ex nobis iure explicabo voluptatum alias minus neque sequi consequatur, maiores rem molestias magnam voluptas enim impedit obcaecati molestiae vero! Perspiciatis libero ad, porro deleniti commodi numquam explicabo ex ratione aut nisi nobis minima accusantium odio.</p>
+            <p class="whitespace-pre-line">white-space-pre-line Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eum voluptate? Quidem sapiente maiores, incidunt corrupti, vitae similique nemo mollitia provident, ducimus id harum sit error saepe blanditiis qui earum iste dolores. Voluptate eveniet inventore, saepe cum sit iure at ducimus, quasi ipsam eaque commodi, tempora reiciendis distinctio. Facilis, quidem!</p>
+            <p class="whitespace-pre-wrap">white-space-pre-wrap Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fugiat explicabo aliquam ducimus perspiciatis, voluptatibus nesciunt magnam ullam, aspernatur vero earum. Fugiat dignissimos qui velit sit obcaecati explicabo minus pariatur, est vitae magni? Facilis est tempore odit! Corrupti maiores provident reprehenderit ad inventore perspiciatis consectetur nam vero. Fugit, eaque sapiente.</p>
+            <p class="whitespace-break-spaces">white-space-break-spaces Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque harum autem officia nulla dolor ut dolorem laudantium blanditiis dolores aut ipsa, totam omnis, ipsum dolorum nam nihil quas id sed, delectus ea saepe? Consequuntur ipsam ut, temporibus, aliquid maiores mollitia nam quod ipsa quam voluptatem facere saepe? Ducimus, dolorum dignissimos.</p>
+            <!-- whitespcae end from here -->
+<!--  break start  start from here -->
+  <p class="w-[200px] bg-red-500 break-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi itaque autem incidunt? Accusamus ipsam excepturi exercitationem in, vero odit natus obcaecati debitis culpa cupiditate sunt deleniti asperiores aspernatur ducimus a cumque nulla non perspiciatis sequi expedita voluptatibus! Perferendis quis vero nulla minus est architecto dolorem consequatur natus, repudiandae aspernatur, porro atque? Et, pariatur, consequatur expedita consectetur laborum animi debitis, iste fugit voluptate inventore molestiae qui ea soluta corporis consequuntur vel! Quasi nisi accusantium voluptatem veniam sint adipisci vero necessitatibus omnis doloremque sequi, error ipsam, laborum incidunt! Eveniet hic necessitatibus quae blanditiis ea nam recusandae a exercitationem quaerat harum, cumque atque?</p>
+  <p class="w-1/2 break-words bg-green-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur tempora, aliquid veritatis sit neque fugit, cumque dicta culpa praesentium et unde rerum est animi. Molestias odio sunt praesentium temporibus minima? Totam, autem inventore. Asperiores perferendis fugit aperiam distinctio voluptate maxime natus dolor neque, vero quae vitae! Ducimus exercitationem alias natus earum? Pariatur id modi tempora culpa illum quod! Debitis facilis suscipit molestias, nemo delectus molestiae nobis excepturi dolorum veniam dolore tenetur? Ipsam porro, eveniet quod enim nostrum officiis veniam voluptatum delectus possimus ducimus nemo ad quis libero, pariatur aperiam. Illo minima temporibus iure soluta ipsum distinctio, eligendi repellat architecto totam?</p>
+  <p class="w-1/3 break-all bg-yellow-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi voluptatum maiores dicta ea placeat, autem nulla dolor, doloremque natus iusto minus blanditiis non eligendi itaque odio a. Voluptatem molestias recusandae nobis nam maxime, numquam expedita iure perspiciatis facere. Placeat saepe reprehenderit soluta voluptatem et, eaque obcaecati rerum nulla, corporis quidem natus dignissimos? Voluptate, deleniti. Expedita, accusamus veritatis. Mollitia ipsam deserunt obcaecati, aspernatur eum commodi quas culpa dicta excepturi quibusdam ipsum temporibus sapiente perspiciatis optio unde cum totam eligendi voluptatem itaque ratione quia molestiae officia, asperiores accusamus? Sed at hic debitis, eius incidunt possimus laudantium magni iste et provident officiis.</p>
+  <!-- break ends from here -->
+   <!-- Hypens start from here -->
+  <p class="hypens-none">hypnes Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, quidem tenetur sunt aperiam optio quisquam ipsam, quis distinctio aspernatur nemo excepturi illum qui officia ea eaque eum impedit eligendi neque ut! Autem tenetur, modi pariatur laborum iusto facere molestias quisquam optio cupiditate at odio non excepturi nobis earum? Non molestiae hic ad, cum sed ea laborum. Repudiandae eius dolores expedita aliquid 
+    &shy;quisquam dolorum blanditiis impedit, fugit quis! Numquam aut, animi quaerat consectetur natus accusantium perferendis temporibus quae saepe totam architecto incidunt quibusdam ratione labore laboriosam. Optio minima, ullam rem commodi dicta, consequuntur modi pariatur ipsa quam asperiores quas fugit repellendus!</p>
+  <p class="hypens-manual">hypnes Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, repellat similique debitis labore unde eius beatae 
+    &shy;perferendis officiis deleniti inventore sint distinctio nam tempore reiciendis earum quae eaque facere amet facilis doloremque dolorem eos maxime explicabo cupiditate? Omnis perspiciatis quo vitae! Dolores omnis voluptatem fugiat in autem molestiae id quod iste qui ea, eveniet natus, minima ullam illo rerum veniam nam cumque temporibus? Corrupti non, laboriosam deserunt laborum eveniet corporis vero officia possimus saepe provident dolores consequuntur distinctio in dolorem illum eos optio id similique adipisci iure eum velit. Eveniet cum quibusdam architecto harum? Corrupti quam illo perferendis porro minima.</p>
+  <p class="hypens-auto">hypnes Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam earum, cumque, aliquid vero 
+    &shy;accusamus, ducimus aut sed natus quibusdam molestias porro fuga. Excepturi eaque ratione soluta accusantium et ullam vel? Odio beatae laboriosam dolores. Esse laudantium corporis beatae maiores praesentium eaque fugiat voluptatibus repellat maxime doloribus odit impedit dolores unde, earum eveniet ipsam. Corporis quos sequi, magnam voluptate non tenetur vitae dolores soluta quod quaerat placeat at inventore commodi possimus vel iure beatae provident, maiores maxime veritatis! Quae, vitae magnam! Harum nihil autem nisi, in et architecto officia necessitatibus similique non earum mollitia, eaque veritatis repudiandae qui quod iure quam?</p>
+<!-- Hypens end from here -->
+ <!-- content start from here -->
+  <p class="before:content-[attr(before)] before="I am Abu Al Shahriar Rifat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit commodi recusandae nesciunt exercitationem? Eaque laborum, tempore cupiditate eius natus quibusdam! Neque laborum molestias facilis eos, minus impedit tenetur aut vitae.</p>
+  <p class="before:content-[attr(before)] before="I am Abu Al Shahriar Rifat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit commodi recusandae nesciunt exercitationem? Eaque laborum, tempore cupiditate eius natus quibusdam! Neque laborum molestias facilis eos, minus impedit tenetur aut vitae.</p>
+  <p class="before:content-[attr(before)] before="I am Abu Al Shahriar Rifat">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit commodi recusandae nesciunt exercitationem? Eaque laborum, tempore cupiditate eius natus quibusdam! Neque laborum molestias facilis eos, minus impedit tenetur aut vitae.</p>
+ 
+ <!-- easy way  -->
+  <div class="before:content-['Abu Al\_Shahriar Rifat']">Lorem ipsum dolor sit amet.</div>
+  <div class="before:content-['Bangladesh'] hover:before:content-['Japan']"></div>
+ <!-- Backround starta from here -->
+    <!-- Backround color start -->
+      <p class="bg-red-500">backround-1</p>
+      <p class="bg-green-500">backround-2</p>
+      <p class="bg-pink-500">backround-3</p>
+      <p class="bg-gray-500">backround-4</p>
+     <!-- Backround color ends -->
+      <!-- make button suing bg -->
+       <p class="bg-pink-400 w-[120px] text-center font-bold
+        hover:bg-indigo-400 rounded mt-2">click me</p>
+  <!-- Backend ends from here -->
+   <!-- Backround image start from here -->
+    <div
+    <div style="background-image:url('../Image/images/13.jpg');
+    width:500px; height:90vh;" class="bg-repeat">
+    </div>v>
+
+    <div style="background-image:url('../Image/images/13.jpg');
+    width:500px; height:90vh;" class=" bg-no-repeat">
+    </div>
+    <!-- bg repeat space -->
+    <div style="background-image:url('../Image/images/13.jpg');
+    width:500px; height:90vh;" class=" bg-repeat-space">
+    </div>
+      <div style="background-image:url('../Image/images/13.jpg');
+    width:500px; height:90vh;" class="bg-repeat-round">
+    </div>
+       <div style="background-image:url('../Image/images/13.jpg');
+    width:500px; height:90vh;" class=" bg-cover">
+    </div>
+
+    <div style="background-image:url('../Image/images/13.jpg');
+    width:500px; height:90vh;" class="bg-contain">
+    </div>
+       <div style="background-image:url('../Image/images/13.jpg');
+    width:500px; height:90vh;" class="bg- center">
+    </div>
+    </div>
+ 
+    <!-- Backround image ends from here -->
+
+    <!-- Image position start from here -->
+     <p class=" bg-bottom">backround-position-bottom</p>
+     <p class=" bg-center">backround-position-center</p>
+     <p class=" bg-left">backround-position-left</p>
+     <p class=" bg-left-bottom">backround-position-left-bottom</p>
+     <p class=" bg-left-top">backround-position-left-top</p>
+     <p class=" bg-right">backround-position-right</p>
+     <p class=" bg-right-bottom">backround-position-right-bottom</p>
+     <p class=" bg-right-top">backround-position-right-top</p>
+     <!-- Image position ends from here -->
+
+     <!-- Backround attachment start from here -->
+      <p class="bg-fixed">backround-fixed</p>
+      <p class="bg-local">backround-local</p>
+      <p class="bg-scroll">backround-scroll</p>
+      <!-- Backround attachment end from here -->
+
+      <!-- Gradient Color Stops starts from here -->
+       
+    <!-- Gradient Color Stops ends from here -->
+
+</body>
+</html>
